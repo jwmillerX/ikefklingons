@@ -1,0 +1,478 @@
+/* Link Styles
+---------------------------------------- */
+
+/* Links adjustment to correctly display an order of rtl/ltr mixed content */
+a {
+	direction: ltr;
+	unicode-bidi: embed;
+	text-decoration: none;
+	/* we use links inline more often then not so to address several bugs with
+	IE and some other browsers we render all links as inlineblock by default */
+	display: inline-block;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+div.rules a {
+	font-weight: bold;
+}
+
+/* Coloured usernames */
+.username-coloured {
+	font-weight: 800;
+	display: inline !important;
+	padding: 0 !important;
+}
+
+/* Links on gradient backgrounds */
+.forumbg .header a, .forabg .header a, th a {
+	text-decoration: none;
+	font-weight: 800;
+	margin-left: 1px;
+}
+
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover {
+	text-decoration: none;
+}
+
+/* Notification mark read link */
+.dropdown-extended a.mark_read {
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 3px 0 0 3px;
+	display: none;
+	margin-top: -20px;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.dropdown-extended li:hover a.mark_read {
+	display: block;
+}
+
+.dropdown-extended a.mark_read:hover {
+	width: 50px;
+}
+
+.jumpbox-cat-link {
+	font-weight: bold;
+	border: 4px solid;
+}
+
+.jumpbox-forum-link {
+	font-weight: bold; 
+}
+
+/* Links for forum/topic lists */
+a.forumtitle {
+	font-family: "Trebuchet MS", Helvetica, Arial, Sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.forumtitle:hover {
+	text-decoration: none;
+}
+
+.forum-title a {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 8px 60px 8px 60px;
+	margin-top: 8px;
+	margin-left: 3px;
+	margin-bottom: 4px;
+}
+
+.forum-title a:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 8px 60px 8px 60px;
+	margin-top: 8px;
+	margin-left: 3px;
+	margin-bottom: 4px;
+}
+
+a.topictitle {
+	font-family: "Trebuchet MS", Helvetica, Arial, Sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline !important;
+}
+
+a.topictitle:hover {
+	text-decoration: none;
+}
+
+.topic-title a {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 8px 60px 8px 60px;
+	margin-top: 8px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.topic-title a:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 8px 60px 8px 60px;
+	margin-top: 8px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+}
+
+.posting-title a {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 8px 60px 8px 60px;
+	margin-top: 8px;
+	margin-left: 3px;
+}
+
+.posting-title a:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 8px 60px 8px 60px;
+	margin-top: 8px;
+	margin-left: 3px;
+}
+
+.lastsubject a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.lastsubject a:hover {
+	text-decoration: none;
+}
+
+.row-item a:hover {
+	text-decoration: none
+}
+
+.row-item .topictitle:hover,
+.row-item .subforum:hover,
+.row-item .username:hover,
+.row-item .username-coloured:hover {
+	text-decoration: none;
+}
+
+/* Post body links */
+.postlink {
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid;
+	padding-bottom: 0;
+}
+
+.postlink:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.attachbox .postlink {
+	font-size: 12px;
+}
+
+.signature a, .signature a:hover {
+	border: none;
+	text-decoration: none;
+}
+
+/* Profile links */
+.postprofile a, .postprofile dt.author a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.postprofile a:hover, .postprofile dt.author a:hover {
+	text-decoration: none;
+}
+
+/* Profile searchresults */
+.search .postprofile a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.search .postprofile a:hover {
+	text-decoration: none;
+}
+
+.top {
+	font-size: 12px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+/* Back to top of page */
+.back2top {
+	clear: both;
+}
+
+.back2top .top {
+	float: right;
+	margin-right: -10px;
+	margin-top: 0;
+}
+
+.top i {
+	margin-right: 3px;
+	margin-left: -1px;
+	font-size: 17px;
+	vertical-align:middle;
+}
+
+a.top {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border: 3px solid;
+	border-radius: 2px;
+	padding: 4px 7px 3px 3px;
+}
+
+.panel.bg1 a.top {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border: none;
+}
+
+.panel.bg2 a.top {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border: none;
+}
+
+.post a.top {
+	border: none;
+}
+
+/* Arrow links  */
+
+.arrow-up {
+	padding-left: 10px;
+	text-decoration: none;
+	border-bottom-width: 0;
+}
+
+.arrow-up:hover {
+	text-decoration: none;
+}
+
+.arrow-down {
+	padding-right: 10px;
+}
+
+.arrow-down:hover {
+	text-decoration: none;
+}
+
+.arrow-left:hover {
+	text-decoration: none;
+}
+
+.arrow-right:hover {
+	text-decoration: none;
+}
+
+a.arrow-right {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+/* invisible skip link, used for accessibility  */
+.skiplink {
+	position: absolute;
+	left: -999px;
+	width: 990px;
+}
+
+/* Feed icon in forumlist_body.html */
+a.feed-icon-forum {
+	float: right;
+	margin: 3px;
+}
+
+a.anchor {
+	display: block;
+}
+
+/* Divers*/
+
+a.left-box {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 5px 3px 3px;
+	border: 3px solid;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	margin-top: -3px;
+	margin-left: 5px;
+}
+
+a.left-box:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 5px 3px 3px;
+	border: 3px solid;
+	border-radius: 2px;
+	margin-left: 5px;
+}
+
+a.right-box {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 5px 3px 3px;
+	border: 3px solid;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	margin-top: -3px;
+}
+
+a.right-box:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 5px 3px 3px;
+	border: 3px solid;
+	border-radius: 2px;
+}
+
+.advanced-search-link a {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 5px 3px 3px;
+	border: 3px solid;
+	border-radius: 2px;
+	margin-top: 8px;
+	margin-bottom: -10px;
+	margin-left: 9px;
+}
+
+.advanced-search-link a:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 5px 3px 3px;
+	border: 3px solid;
+	border-radius: 2px;
+	margin-left: 9px;
+}
+
+a.posting-title {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 2px;
+	margin-top: 8px;
+	padding:6px;
+}
+
+a.posting-title:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 2px;
+	margin-top: 8px;
+	padding:6px;
+}
+
+.faq a {
+	font-weight: bold;
+}
+
+#login a {
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+/* Navbar
+----------------------------------------*/
+ .navbar a {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+} 

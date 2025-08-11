@@ -1,0 +1,1814 @@
+/*
+--------------------------------------------------------------
+Colours and backgrounds for common.css
+-------------------------------------------------------------- */
+
+html, body {
+	background-color: #262223;
+	background-image: url("./images/background.jpg");
+	color: #B5B5B5;
+}
+
+h1 {
+	color: #C4C4C4;
+	text-shadow: 8px 8px 8px #999999;
+}
+
+h2 {
+	color: #C4C4C4;
+}
+
+h2.solo {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+h2.faq-title {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+h2.viewonline-title {
+	color: #B5B5B5;
+	background: #262223;
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+h2.group-title {
+	color: #B5B5B5;
+	background: #262223;
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.memberlist-title {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.ucp-title, .mcp-title {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.titlespace {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+h3 {
+	border-bottom-color: #777;
+	color: #C4C4C4;
+}
+
+.modern-sitedescription:hover {
+	color: #D20000 !important;
+	background: #313133;
+}
+
+h5 {
+	color: #B5B5B5;
+}
+
+hr {
+	border-color: #C4C4C4;
+	border-top-color: #A9A9A9;
+}
+
+p.responsive-center.time {
+	color: #B7B7B7;
+}
+
+dl.left-box.details.profile-details a:hover {
+	color: #E1484D;
+}
+
+a.mark-read.rightside {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+a.mark-read.rightside:hover {
+	color: #E1484D;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+
+a { color: #B5B5B5; }
+a:hover { color: #BF0000; }
+a:focus { color: #BF0000; }
+a:active { color: #BF0000; }
+
+div.rules a {
+	color: #D20000;
+}
+
+div.rules a:hover {
+	color: #A20000;
+}
+
+.forum-title a {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow: inset 0 0 8px #000000;
+}
+
+.forum-title a:hover {
+	color: #E1484D;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow: inset 0 0 8px #000000;
+}
+
+.topic-title a {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow: inset 0 0 8px #000000;
+}
+
+.topic-title a:hover {
+	color: #E1484D;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow: inset 0 0 8px #000000;
+}
+
+.posting-title a {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow: inset 0 0 8px #000000;
+}
+
+.posting-title a:hover {
+	color: #E1484D;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow: inset 0 0 8px #000000;
+}
+
+.postprofile a, .postprofile dt.author a {
+	color: #F9F9F9;
+}
+
+.postprofile a:hover, .postprofile dt.author a:hover {
+	color: #D20000;
+	font-weight: bold;
+}
+
+.searchresults-title {
+	color: #B5B5B5;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.advanced-search-link a {
+	color: #B5B5B5 !important;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+}
+
+.advanced-search-link a:hover {
+	color: #E1484D !important;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+}
+
+a.left-box {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+}
+
+a.left-box:hover {
+	color: #E1484D;
+	background-color: #1F1F1F;
+	border-color: #000;
+}
+
+a.right-box {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+}
+
+a.right-box:hover {
+	color: #E1484D;
+	background-color: #1F1F1F;
+	border-color: #000;
+}
+
+.right-box a {
+	color: #F4F4F4 !important;
+}
+
+.right-box a:hover {
+	color: #E1484D !important;
+}
+
+a.subforum:hover {
+	color: #E0E0E0;
+}
+
+a.forumtitle:hover {
+	color: #E0E0E0;
+}
+
+a.lastsubject:hover {
+	color: #E0E0E0;
+}
+
+.faq a {
+	color: #C4C4C4;
+}
+
+.faq a:hover {
+	color: #BF0000;
+}
+
+.quick-login a:hover {
+	color: #F9F9F9;
+}
+
+.navbar a:hover {
+	color: #D20000 !important;
+} 
+
+/* Links on gradient backgrounds */
+.forumbg .header a, .forabg .header a, th a {
+	color: #B5B5B5;
+}
+
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover {
+	color: #BF0000;
+}
+
+/* Notification mark read link */
+.dropdown-extended a.mark_read {
+	background-color: #000;
+}
+
+/* Post body links */
+.postlink {
+	border-bottom-color: #D20000;
+	color: #D20000;
+}
+
+.postlink:visited {
+	border-bottom-color: #BF0000;
+	color: #BF0000;
+}
+
+.postlink:hover {
+	background-color: transparent;
+	color: #BF0000;
+}
+
+.signature a, .signature a:hover {
+	background-color: transparent;
+}
+
+/* Back to top of page */
+.top i {
+	color: #B5B5B5; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #C7C7C7 0%, #747474 90%);
+	background: -webkit-linear-gradient(top, #C7C7C7 0%,#747474 90%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+a.top {
+	color: #C4C4C4;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 3px solid #000;
+	border-radius: 2px;
+	padding: 2px 7px 1px 3px;
+}
+
+a.top:hover {
+	color: #E1484D;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 3px solid #000;
+	border-radius: 2px;
+	padding: 2px 7px 1px 3px;
+}
+
+.panel a.top {
+	color: #C4C4C4;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: transparent;
+	border: none;
+}
+
+.panel a.top:hover {
+	color: #E1484D;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: transparent;
+	border: none;
+}
+
+.post a.top {
+	background: transparent;
+	border: none;
+}
+
+/* Arrow links  */
+.arrow-left:hover, .arrow-right:hover {
+	color: #BF0000;
+}
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+.navbar {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #777;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .1);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .1);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .1);
+}
+
+.forabg {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #777;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+.forumbg {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #777;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+.panel {
+	background: -moz-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1f1f1f), color-stop(48%, #4a4a4a), color-stop(100%, #262223));
+	background: -webkit-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%);
+	background: -ms-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%);
+	background: linear-gradient(344deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#262223',GradientType=0 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #777;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+.bg1 {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 1px solid #777;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
+	background-color: #313131;
+}
+
+.bg2 {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 1px solid #777;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
+	background-color: #2E2E2F;
+}
+
+.bg3 {
+	background: -moz-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%)!important; /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1f1f1f), color-stop(48%, #4a4a4a), color-stop(100%, #262223))!important;
+	background: -webkit-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%)!important; /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%)!important;
+	background: -ms-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%)!important;
+	background: linear-gradient(344deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#262223',GradientType=0 )!important; /* IE6-9 fallback on horizontal gradient */
+	border: 1px solid #777;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+.ucprowbg {
+	background-color: #939192;
+}
+
+.fieldsbg {
+	background-color: #939192;
+}
+
+.site_logo {
+	background-image: url("./images/site_logo.png");
+}
+
+form#agreement .panel {
+	background: #222;
+}
+
+/* Horizontal lists
+----------------------------------------*/
+
+ul.navlinks {
+	border-top-color: #777777;
+}
+
+/* Table styles
+----------------------------------------*/
+table.table1 thead th {
+	color: #C4C4C4;
+	background-color: #262223;
+	padding: 0 0 4px 0;
+
+}
+
+table.table1 tbody tr {
+	border-color: #444;
+}
+
+table.table1 tbody tr:hover, table.table1 tbody tr.hover {
+	background-color: #BF0000;
+}
+
+table.table1 td {
+	color: #C4C4C4;
+}
+
+table.table1 tbody td {
+	border-top-color: transparent;
+}
+
+table.table1 tbody th {
+	border-bottom-color: #1F1F1F;
+	color: #3E3E3E;
+	background-color: #C5C5C5;
+}
+
+.forumbg.forumbg-table {
+	border-color: #000;
+}
+
+tr.bg1, tr.bg2 {
+	border-color: #777;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 12px #777, 0 0 8px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 12px #777, 0 0 8px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 12px #777, 0 0 8px rgba(0,0,0, .9);
+}
+
+/* Misc layout styles
+---------------------------------------- */
+dl.details dt {
+	color: #B5B5B5;
+}
+
+dl.details dd {
+	color: #B5B5B5;
+}
+
+.sep {
+	color: #B5B5B5;
+}
+
+/* Icon styles
+---------------------------------------- */
+.icon.icon-blue, a:hover .icon.icon-blue {
+	color: #248CE1; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #98C9F1 25%, #248CE1 100%);
+	background: -webkit-linear-gradient(top, #98C9F1 25%,#248CE1 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.icon-green, a:hover .icon.icon-green {
+	color: #1b9A1B; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #5AE25A 25%, #1b9A1B 100%);
+	background: -webkit-linear-gradient(top, #5AE25A 25%,#1b9A1B 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.icon-red, a:hover .icon.icon-red {
+	color: #BF0000; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #FF3E3E 25%, #A60000 100%);
+	background: -webkit-linear-gradient(top, #FF3E3E 25%,#A60000 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.icon-darkred, a:hover .icon.icon-darkred {
+	color: #BF0000; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #F40000 25%, #A60000 100%);
+	background: -webkit-linear-gradient(top, #F40000 25%,#A60000 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.icon-orange, a:hover .icon.icon-orange {
+	color: #FF6600; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #FFA062 25%, #FF6600 100%);
+	background: -webkit-linear-gradient(top, #FFA062 25%,#FF6600 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.icon-bluegray, a:hover .icon.icon-bluegray {
+	color: #536482;
+}
+
+.icon.icon-gray, a:hover .icon.icon-gray {
+	color: #777777;
+}
+
+.icon.icon-lightgray, a:hover .icon.icon-lightgray {
+	color: #B5B5B5; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #C7C7C7 0%, #747474 90%);
+	background: -webkit-linear-gradient(top, #C7C7C7 0%,#747474 90%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.icon-black, a:hover .icon.icon-black {
+	color: #3E3E3E;
+}
+
+.alert_close .icon:before {
+	background-color: #F9F9F9;
+	-webkit-text-fill-color: #000 !important;
+	padding: 3px;
+}
+
+.arrow-right .icon {
+	color: #BF0000; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #FF5B5B 25%, #A60000 100%);
+	background: -webkit-linear-gradient(top, #FF5B5B 25%,#A60000 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.arrow-left .icon {
+	color: #BF0000; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #FF5B5B 25%, #A60000 100%);
+	background: -webkit-linear-gradient(top, #FF5B5B 25%,#A60000 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.icon.fa-chevron-right:hover {
+	color: #B5B5B5; /* Old browsers */ /* IE */
+	background:-moz-linear-gradient(top, #C7C7C7 0%, #747474 90%);
+	background: -webkit-linear-gradient(top, #C7C7C7 0%,#747474 90%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+/* Jumpbox */
+.jumpbox .dropdown li {
+	border-top-color: #444;
+}
+
+.jumpbox-cat-link {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	border-color: #000;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #000;
+	color: #BF0000;
+}
+
+.jumpbox-forum-link {
+	background-color: #777777;
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #333333;
+}
+
+.jumpbox-sub-link {
+	color: #C4C4C4;
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jumpbox-sub-link:hover {
+	background: #262223;
+	color: #BF0000;
+}
+
+.jumpbox .dropdown .pointer-inner {
+	border-color: #B5B5B5 transparent;
+}
+
+/* Miscellaneous styles
+---------------------------------------- */
+
+.copyright {
+	color: #B5B5B5;
+	background-color: #222222;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: 0 0 10px #000000;
+}
+
+.copyright a {
+	color: #C4C4C4;
+}
+
+.copyright a:hover {
+	color: #BF0000;
+}
+
+.error {
+	color: #D20000;
+}
+
+li.row.bg1.reported, li.row.bg2.reported {
+	background-color: #941F25;
+	background-image: none;
+	filter: none;
+}
+
+li.row.bg1.reported:hover, li.row.bg2.reported:hover {
+	background-color: #111111;
+	background-image: none;
+	filter: none;
+}
+
+.sticky, .announce {
+	/* you can add a background for stickies and announcements*/
+}
+
+div.rules {
+	color: #C4C4C4;
+	background: #262223;
+	border-color: #777777;
+	box-shadow: 0 0 9px #D20000;
+	-moz-box-shadow: 0 0 9px #D20000;
+	-webkit-box-shadow: 0 0 9px #D20000;
+}
+
+p.post-notice {
+	background-color: #222222;
+	background-image: none;
+	border-left: 4px solid #FF6600;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
+
+ul.forums {
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-top: 1px solid #777;
+	border-left: 2px solid #383838;
+	border-right: 2px solid #383838;
+	border-bottom: 2px solid #383838;
+	border-radius: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul.topiclist dd {
+	border-left-color: transparent;
+}
+
+.rtl ul.topiclist dd {
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+li.row {
+	border-top-color: transparent;
+	border-bottom-color: #444;
+}
+
+li.row strong {
+	color: #C4C4C4;
+}
+
+li.row:hover {
+	background-color: #840000;
+}
+
+li.row:hover dd {
+	border-left-color: transparent;
+}
+
+.rtl li.row:hover dd {
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+li.header dt, li.header dd {
+	color: #B5B5B5;
+}
+
+/* Post body styles
+----------------------------------------*/
+.postbody {
+	color: #B5B5B5;
+}
+
+/* Content container styles
+----------------------------------------*/
+.content {
+	color: #B5B5B5;
+}
+
+.content h2, .panel h2 {
+	color: #B5B5B5;
+	border-bottom-color:  #777;
+}
+
+dl.faq dt {
+	color: #E0E0E0;
+}
+
+.posthilit {
+	background-color: #BF0000;
+	color: #F9F9F9;
+}
+
+.announce, .unreadpost {
+	/* Highlight the announcements & unread posts box */
+}
+
+/* Post signature */
+.signature {
+	border-top-color: #666;
+}
+
+/* Post noticies */
+.notice {
+	border-top-color: #666;
+}
+
+/* BB Code styles
+----------------------------------------*/
+/* Quote block */
+blockquote {
+	background-color: #474747;
+	border-color: #777;
+}
+
+blockquote blockquote {
+	/* Nested quotes */
+	background-color: #282828;
+}
+
+blockquote blockquote blockquote {
+	/* Nested quotes */
+	background-color: #474747;
+}
+
+/* Code block */
+.codebox {
+	background-color: #1F1F1F;
+	border-color: #777;
+}
+
+.codebox p {
+	border-bottom-color:  #777;
+}
+
+.codebox code {
+	color: #888;
+}
+
+/* Attachments
+----------------------------------------*/
+.attachbox {
+	background-color: #1F1F1F;
+	border-color: #888;
+}
+
+.pm-message .attachbox {
+	background-color: #C9C9C9;
+}
+
+.attachbox dd {
+	border-top-color: #777;
+}
+
+.attachbox p {
+	color: #666666;
+}
+
+.attachbox p.stats {
+	color: #666666;
+}
+
+.attach-image img {
+	border-color: #777;
+}
+
+/* Inline image thumbnails */
+
+dl.file dd {
+	color: #777;
+}
+
+dl.thumbnail img {
+	border-color: #777;
+	background-color: #222;
+}
+
+dl.thumbnail dd {
+	color: #777;
+}
+
+dl.thumbnail dt a:hover {
+	background-color: #222;
+}
+
+dl.thumbnail dt a:hover img {
+	border-color: #D20000;
+}
+
+/* Post poll styles
+----------------------------------------*/
+
+fieldset.polls dl {
+	border-top-color: #B5B5B5;
+	color: #D4D4D4;
+}
+
+fieldset.polls dl.voted {
+	color: #D20000;
+	background: #262223;
+}
+
+fieldset.polls dd div {
+	color: #000;
+}
+
+.rtl .pollbar1, .rtl .pollbar2, .rtl .pollbar3, .rtl .pollbar4, .rtl .pollbar5 {
+	border-right-color: transparent;
+}
+
+.pollbar1 {
+	background-color: #868686;
+	border-bottom-color: #1F1F1F;
+	border-right-color: #1F1F1F;
+}
+
+.rtl .pollbar1 {
+	border-left-color: #1F1F1F;
+}
+
+.pollbar2 {
+	background-color: #A3A3A3;
+	border-bottom-color: #1F1F1F;
+	border-right-color: #1F1F1F;
+}
+
+.rtl .pollbar2 {
+	border-left-color: #1F1F1F;
+}
+
+.pollbar3 {
+	background-color: #BEBEBE;
+	border-bottom-color: #1F1F1F;
+	border-right-color: #1F1F1F;
+}
+
+.rtl .pollbar3 {
+	border-left-color: #1F1F1F;
+}
+
+.pollbar4 {
+	background-color: #A40000;
+	border-bottom-color: #1F1F1F;
+	border-right-color: #1F1F1F;
+}
+
+.rtl .pollbar4 {
+	border-left-color: #1F1F1F;
+}
+
+.pollbar5 {
+	background-color: #D20000;
+	border-bottom-color: #1F1F1F;
+	border-right-color: #1F1F1F;
+}
+
+.rtl .pollbar5 {
+	border-left-color: #1F1F1F;
+}
+
+/* Poster profile block
+----------------------------------------*/
+.postprofile {
+	color: #B5B5B5;
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 1px solid #777;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+.pm .postprofile {
+	border-color: #777;
+}
+
+.postprofile strong {
+	color: #B5B5B5;
+}
+
+.online {
+	border-right: 4px solid #D20000;
+}
+
+.offline {
+	border-right: 4px solid #E0E0E0;
+}
+
+.postprofile .avatar img {
+	border-color: #666;
+	box-shadow: -6px -6px 6px #B5B5B5, 6px 6px 6px #B5B5B5;
+	-moz-box-shadow: -6px -6px 6px #B5B5B5, 6px 6px 6px #B5B5B5;
+	-webkit-box-shadow: -6px -6px 6px #B5B5B5, 6px 6px 6px #B5B5B5;
+}
+
+.no-avatar .avatar-container {
+	background: transparent none 50% 50% no-repeat;
+	background-image: url("./images/no_avatar.png");
+}
+
+dd.profile-warnings {
+	color: #D20000;
+}
+
+dd.profile-warnings {
+	color: #D20000;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+.button {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+}
+
+.button:hover,
+.button:focus {
+	border-color: #000;
+	background-color: #222; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #333 0%, #222 100%);
+	background-image: linear-gradient(to bottom, #333 0%,#222 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#222',GradientType=0 ); /* IE6-9 */
+	text-shadow: none;
+}
+
+.button .icon,
+.button-secondary {
+	color: #8F8F8F;
+}
+
+.button-secondary:focus,
+.button-secondary:hover {
+	color: #E1484D;
+}
+
+.button:focus .icon,
+.button:hover .icon {
+	color: #BF0000;
+}
+
+.button-search:hover,
+.button-search-end:hover {
+	border-color: #000;
+}
+
+.caret	{ border-color: #F4F4F4; }
+.caret	{ border-color: #DADADA; }
+
+.contact-icons a		{ border-color: #DCDCDC; }
+.contact-icons a:hover	{ background-color: #333; }
+
+/* Pagination
+---------------------------------------- */
+
+.pagination li a {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	box-shadow: none;
+}
+
+.pagination li.ellipsis span {
+	background: transparent;
+	color: #D20000 !important;
+	border-color: transparent;
+}
+
+.pagination li.active span {
+	color: #F4F4F4;
+	background: #821b1d; /* Old browsers */
+	background: -moz-linear-gradient(top, #821b1d 0%, #e50914 11%, #e82731 26%, #e53b44 43%, #e53b44 59%, #e82731 76%, #e50914 90%, #821b1d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #821b1d 0%,#e50914 11%,#e82731 26%,#e53b44 43%,#e53b44 59%,#e82731 76%,#e50914 90%,#821b1d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #821b1d 0%,#e50914 11%,#e82731 26%,#e53b44 43%,#e53b44 59%,#e82731 76%,#e50914 90%,#821b1d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#821b1d', endColorstr='#821b1d',GradientType=0 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #F4F4F4;
+}
+
+.pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+	border-color: #F4F4F4;
+	color: #F4F4F4;
+	text-shadow: none;
+}
+
+/* Search box
+--------------------------------------------- */
+
+.search-box .inputbox,
+.search-box .inputbox:hover,
+.search-box .inputbox:focus {
+	border-color: #000;
+	background-color: #262223;
+	color: #C4C4C4;
+}
+
+.search-header {
+	box-shadow: 0 0 0;
+}
+
+.search-header .button-search, .search-header .button-search-end {
+	border-color: #555;
+}
+
+/* Icon images
+---------------------------------------- */
+
+.contact-icon						{ background-image: url("./images/icons_contact.png"); }
+
+/* Profile & navigation icons */
+.pm-icon							{ background-position: 0 0; }
+.email-icon							{ background-position: -21px 0; }
+.jabber-icon						{ background-position: -80px 0; }
+.phpbb_icq-icon						{ background-position: -61px 0 ; }
+.phpbb_wlm-icon						{ background-position: -182px 0; }
+.phpbb_aol-icon						{ background-position: -244px 0; }
+.phpbb_website-icon					{ background-position: -40px 0; }
+.phpbb_youtube-icon					{ background-position: -98px 0; }
+.phpbb_facebook-icon				{ background-position: -119px 0; }
+.phpbb_googleplus-icon				{ background-position: -140px 0; }
+.phpbb_skype-icon					{ background-position: -161px 0; }
+.phpbb_twitter-icon					{ background-position: -203px 0; }
+.phpbb_yahoo-icon					{ background-position: -224px 0; }
+
+/* Forum icons & Topic icons */
+.global_read						{ background-image: url("./images/announce_read.png"); }
+.global_read_mine					{ background-image: url("./images/announce_read_mine.png"); }
+.global_read_locked					{ background-image: url("./images/announce_read_locked.png"); }
+.global_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.png"); }
+.global_unread						{ background-image: url("./images/announce_unread.png"); }
+.global_unread_mine					{ background-image: url("./images/announce_unread_mine.png"); }
+.global_unread_locked				{ background-image: url("./images/announce_unread_locked.png"); }
+.global_unread_locked_mine			{ background-image: url("./images/announce_unread_locked_mine.png"); }
+
+.announce_read						{ background-image: url("./images/announce_read.png"); }
+.announce_read_mine					{ background-image: url("./images/announce_read_mine.png"); }
+.announce_read_locked				{ background-image: url("./images/announce_read_locked.png"); }
+.announce_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.png"); }
+.announce_unread					{ background-image: url("./images/announce_unread.png"); }
+.announce_unread_mine				{ background-image: url("./images/announce_unread_mine.png"); }
+.announce_unread_locked				{ background-image: url("./images/announce_unread_locked.png"); }
+.announce_unread_locked_mine		{ background-image: url("./images/announce_unread_locked_mine.png"); }
+
+.forum_link							{ background-image: url("./images/forum_link.png"); }
+.forum_read							{ background-image: url("./images/forum_read.png"); }
+.forum_read_locked					{ background-image: url("./images/forum_read_locked.png"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.png"); }
+.forum_unread						{ background-image: url("./images/forum_unread.png"); }
+.forum_unread_locked				{ background-image: url("./images/forum_unread_locked.png"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.png"); }
+
+.sticky_read						{ background-image: url("./images/sticky_read.png"); }
+.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.png"); }
+.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.png"); }
+.sticky_read_locked_mine			{ background-image: url("./images/sticky_read_locked_mine.png"); }
+.sticky_unread						{ background-image: url("./images/sticky_unread.png"); }
+.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.png"); }
+.sticky_unread_locked				{ background-image: url("./images/sticky_unread_locked.png"); }
+.sticky_unread_locked_mine			{ background-image: url("./images/sticky_unread_locked_mine.png"); }
+
+.topic_moved						{ background-image: url("./images/topic_moved.png"); }
+.pm_read,
+.topic_read							{ background-image: url("./images/topic_read.png"); }
+.topic_read_mine					{ background-image: url("./images/topic_read_mine.png"); }
+.topic_read_hot						{ background-image: url("./images/topic_read_hot.png"); }
+.topic_read_hot_mine				{ background-image: url("./images/topic_read_hot_mine.png"); }
+.topic_read_locked					{ background-image: url("./images/topic_read_locked.png"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_read_locked_mine.png"); }
+.pm_unread,
+.topic_unread						{ background-image: url("./images/topic_unread.png"); }
+.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.png"); }
+.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.png"); }
+.topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.png"); }
+.topic_unread_locked				{ background-image: url("./images/topic_unread_locked.png"); }
+.topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.png"); }
+
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for cp.css
+-------------------------------------------------------------- */
+
+/* Main CP box
+----------------------------------------*/
+
+.panel-container h3, .panel-container hr, .cp-menu hr {
+	border-color: #BF0000;
+}
+
+.panel-container .panel li.row {
+	border-bottom-color: #3E3E3E;
+	border-top-color: transparent;
+}
+
+ul.cplist {
+	border-top-color: #1F1F1F;
+}
+
+.panel-container .panel li.header dd, .panel-container .panel li.header dt {
+	color: #B5B5B5;
+	font-weight: 600;
+}
+
+.panel-container table.table1 thead th {
+	color: #B5B5B5;
+	border-bottom-color: #B5B5B5;
+}
+
+.cp-main .pm-message {
+	background: -moz-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1f1f1f), color-stop(48%, #4a4a4a), color-stop(100%, #262223)) !important;
+	background: -webkit-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%) !important;
+	background: -o-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%) !important;
+	background: -ms-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%) !important;
+	background: linear-gradient(344deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#262223',GradientType=0 );
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+/* CP tabbed menu
+----------------------------------------*/
+.tabs .tab > a {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 3px solid #000; 
+	border-radius: 2px;
+	color: #B5B5B5;
+	margin-bottom: 5px;
+	margin-right: 7px;
+	margin-left: -7px;
+}
+
+.tabs .tab > a:hover {
+	background: #840000;
+	color: #B5B5B5;
+}
+
+.tabs .activetab > a {
+	background: #262223;
+	border-color: #000;
+	color: #BF0000;
+}
+
+.tabs .activetab > a:hover {
+	background-color: #1F1F1F;
+	border-color: #000;
+	color: #B5B5B5;
+}
+
+/* Mini tabbed menu used in MCP
+----------------------------------------*/
+.minitabs .tab > a {
+	background-color: #262223;
+	border: 2px solid #000;
+	border-radius: 2px;
+}
+
+.minitabs .tab > a:hover {
+	background: #840000;
+	border-color: #000;
+	color: #B5B5B5;
+}
+
+.minitabs .activetab > a {
+	background-color: #1F1F1F!important;
+	color: #BF0000;
+}
+
+.minitabs .activetab > a:hover {
+	background-color: #1F1F1F!important;
+	color: #B5B5B5;
+}
+
+/* Responsive tabs
+----------------------------------------*/
+	.responsive-tab .responsive-tab-link:before {
+		border-color: #B5B5B5;
+}
+
+	.responsive-tab .responsive-tab-link:hover:before {
+		border-color: #B5B5B5;
+}
+
+/* UCP navigation menu
+----------------------------------------*/
+
+/* Link styles for the sub-section links */
+.navigation a {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 3px solid #000;
+	padding: 6px 0 6px 6px;
+	margin-top: -0.08em;
+}
+
+.rtl .navigation a {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 3px solid #000;
+}
+
+.navigation a:hover {
+	background: #840000;
+	color: #B5B5B5;
+	border: 3px solid #000;
+}
+
+.navigation .active-subsection a {
+	background: #262223;
+	color: #BF0000;
+	border: 3px solid #000;
+}
+
+.navigation .active-subsection a:hover {
+	color: #B5B5B5;
+}
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
+{
+	#navigation a, .rtl #navigation a {
+		background: #262223;
+	}
+}
+
+/* Preferences pane layout
+----------------------------------------*/
+.panel-container h2 {
+	font-family: Arial, sans-serif;
+	color: #C4C4C4;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-bottom: 4px;
+}
+
+.cp-main .pm {
+	background: -moz-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%) /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1f1f1f), color-stop(48%, #4a4a4a), color-stop(100%, #262223)) ;
+	background: -webkit-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%);
+	background: -ms-linear-gradient(106deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%);
+	background: linear-gradient(344deg, #262223 0%, #4a4a4a 52%, #1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#262223',GradientType=0 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+/* Friends list */
+.cp-mini {
+	background: #262223;
+	border: 1px solid #BF0000;
+	border-radius: 2px;
+}
+
+/* PM Styles
+----------------------------------------*/
+/* PM Message history */
+.current {
+	color: #B5B5B5 !important;
+}
+
+/* PM marking colours */
+.pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
+	border-left-color: #FF0000;
+	border-right-color: #FF0000;
+}
+
+.pmlist li.pm_marked_colour, .pm_marked_colour {
+	border-color: #FFFF99;
+}
+
+.pmlist li.pm_replied_colour, .pm_replied_colour {
+	border-color: #B5B5B5;
+}
+
+.pmlist li.pm_friend_colour, .pm_friend_colour {
+	border-color: #F4F4F4;
+}
+
+.pmlist li.pm_foe_colour, .pm_foe_colour {
+	border-color: #8C0000;
+}
+
+/* Avatar gallery */
+.gallery label {
+	background: #C1C1C1;
+	border-color: #777;
+}
+
+.gallery label:hover {
+	background-color: #C1C1C1;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for forms.css
+-------------------------------------------------------------- */
+
+/* General form styles
+----------------------------------------*/
+select {
+	border-color: #777;
+	background-color: #333;
+	color: #B5B5B5;
+}
+
+label {
+	color: #B5B5B5;
+}
+
+option.disabled-option {
+	color: graytext;
+}
+
+/* Definition list layout for forms
+---------------------------------------- */
+dd label {
+	color: #C4C4C4;
+}
+
+fieldset.fields1 {
+	background-color: transparent;
+}
+
+/* Hover effects */
+
+fieldset.fields2 dl:hover dt label {
+	color: inherit;
+}
+
+/* Quick-login on index page */
+fieldset.quick-login input.inputbox {
+	background-color: #B5B5B5;
+	color: #000;
+}
+
+/* Posting page styles
+----------------------------------------*/
+
+.message-box textarea {
+	color: #CACACA;
+}
+
+.message-box textarea.drag-n-drop {
+	outline-color: rgba(102, 102, 102, 0.5);
+}
+
+.message-box textarea.drag-n-drop-highlight {
+	outline-color: rgba(191, 0, 0, 1);
+}
+
+/* Input field styles
+---------------------------------------- */
+.inputbox, .auto-resized {
+	background-color: #666;
+	border-color: #000;
+	color: #F9F9F9;
+}
+
+.inputbox:-moz-placeholder {
+	color: #CACACA;
+}
+
+.inputbox::-webkit-input-placeholder {
+	color: #CACACA;
+}
+
+.inputbox:hover, .auto-resized:hover {
+   border-color: #BF0000;
+}
+
+.inputbox:focus, .auto-resized:focus {
+	border-color: #BF0000;
+}
+
+.inputbox:focus:-moz-placeholder {
+	color: transparent;
+}
+
+.inputbox:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+/* Form button styles
+---------------------------------------- */
+
+a.button1, input.button1, input.button3, a.button2, input.button2 {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+}
+
+a.button1, input.button1 {
+	border-color: #000;
+}
+
+input.button3 {
+	background-image: none;
+}
+
+fieldset.quick-login input.button2:hover {
+	color: #F9F9F9;
+	background: #BF0000;
+}
+
+/* Alternative button */
+a.button2, input.button2, input.button3 {
+	border-color: #000;
+	color: #B5B5B5;
+}
+
+/* <a> button in the style of the form buttons */
+a.button1, a.button2 {
+	color: #B5B5B5;
+}
+
+/* Hover states */
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	color: #E1484D;
+}
+
+/* Focus states */
+input.button1:focus, input.button2:focus, input.button3:focus {
+	background: #646466; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #646466 0%, #1f1f1f 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #646466 0%,#1f1f1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #646466 0%,#1f1f1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646466', endColorstr='#1f1f1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border-color: #000;
+	color: #E1484D;
+}
+
+input.disabled {
+	color: #666666;
+}
+
+/* jQuery popups
+---------------------------------------- */
+.phpbb_alert {
+	background-color: #9D0000;
+	border-color: #F4F4F4;
+	font-weight: bold;
+	box-shadow: -9px -9px 9px #333, 12px 12px 12px #1F1F1F;
+	-moz-box-shadow: -9px -9px 9px #333, 12px 12px 12px #1F1F1F;
+	-webkit-box-shadow: -9px -9px 9px #333, 12px 12px 12px #1F1F1F;
+}
+
+.phpbb_alert h3 {
+	color: #DADADA;
+	font-weight: 800;
+	border-bottom-color: #C4C4C4;
+}
+.darken {
+	background-color: #000;
+}
+
+.loading_indicator {
+	background-color: #000;
+	background-image: url("./images/loading.gif");
+}
+
+.dropdown-extended ul li {
+	border-top-color: #B9B9B9;
+}
+
+.dropdown-extended ul li:hover {
+	background-color: #1F1F1F;
+}
+
+.dropdown-extended .header, .dropdown-extended .footer {
+	background: #262223;
+	border-color: #F4F4F4;
+	color: #C4C4C4;
+	text-shadow: none;
+}
+
+.dropdown-extended .footer {
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.dropdown .pointer {
+	border-color: #B9B9B9 transparent;
+}
+
+.dropdown .pointer-inner {
+	border-color: #B5B5B5 transparent;
+}
+
+.dropdown-extended .pointer-inner {
+	border-color: #B5B5B5 transparent;
+}
+
+.dropdown .dropdown-contents {
+	color: #B5B5B5;
+	background: #262223; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #262223 1%, #303032 41%, #303032 58%, #262223 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #262223 1%,#303032 41%,#303032 58%,#262223 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262223', endColorstr='#262223',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	border: 1px solid #777;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	-moz-box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+	box-shadow: inset 0 0 15px #777, 0 0 15px rgba(0,0,0, .9);
+}
+
+.dropdown-up .dropdown-contents {
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown li, .dropdown li li {
+	border-color: #777;
+}
+
+.dropdown li.separator {
+	border-color: #777;
+}
+
+/* Notifications
+---------------------------------------- */
+
+.notification_list p.notification-time {
+	color: #B5B5B5;
+}
+
+li.notification-reported strong, li.notification-disapproved strong {
+	color: #D31141;
+}
+
+.badge {
+	background-color: #D20000;
+	border-color: #D20000;
+	color: #000;
+}
+
+.count {
+	background-color: #B5B5B5;
+	color: #000;
+	border-color: #000;
+}

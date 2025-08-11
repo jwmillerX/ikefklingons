@@ -1,0 +1,73 @@
+/* ____________________ #body overwrites ______________________________________________________________________________ */
+#body a{color:#ffcc66;font-size:14px;}
+#body{background-attachment:fixed;background-color:#000;background-image:url(../images/1409_2.jpg); background-position:0 -64px; background-repeat:no-repeat;color:#fff;}
+/* ____________________ OuterContainer and Container CSS ______________________________________________________________________________ */
+#outerContainerBA{margin:0 auto;width:980px;}
+/* ____________________ Header CSS ______________________________________________________________________________ */
+#headerBA{color:#fff;font-family:Georgia, Times New Roman, serif;margin:0 auto;padding:20px 0;text-align:left;width:100%;}
+#headerBA .zbl-h1, #headerBA .zbl-h2{color:#fff;}
+#headerBA .zbl-h3, #headerBA p{color:#999;}
+#headerBA a{color:#fff;}
+
+#zbl-NavHeader .navigation-container ul.navigation{border-bottom:1px solid #444;border-top:1px solid #444; margin-bottom:15px; text-transform:uppercase;width:100%;}
+#zbl-NavHeader .navigation-container ul.navigation li{border-right:1px solid #444;float:left;padding:2px 0;margin:4px 0;text-align:center;white-space:nowrap;width:auto;}
+#zbl-NavHeader .navigation-container ul.navigation li.last{border-right:none;}
+#zbl-NavHeader .navigation-container ul.navigation li a{color:#ffcc66;display:block;padding:4px 17px;text-decoration:none;}
+#zbl-NavHeader .navigation-container ul.navigation li a:hover, #zbl-NavHeader .navigation-container ul.navigation li a.selected{color:#FFF;}
+.headerContent{padding:15px 0}
+
+/* ____________________ Main / Content Area & Side bar CSS ______________________________________________________________________________ */
+#mainBA{margin:15px 0;width:auto;}
+#contentBA{width:63.5%;padding-right:1.5%; min-height:200px;}
+#contentBA ul.navigation li{border-right:1px solid #ffcc66;float:left;min-width:30px;text-align:center;;}
+#contentBA ul.navigation li a{color:#ffcc66;display:block;padding:8px 17px;text-decoration:none;}
+#contentBA ul.navigation li a:hover, #contentBA ul.navigation li a.selected{color:#fff;}
+#contentBA ul.navigation li a.selected{color:#FFF;}
+#sidebarBA{background: rgba(255, 255, 255, 0.15);margin-left: 1.5%;min-height: 200px;padding: 1%;width: 31%;}
+#sidebarBA ul.navigation{background:#090909;border:1px solid #111;margin-bottom:25px; padding:5px 5px 0}
+#sidebarBA ul.navigation li{margin:0 0 5px;}
+#sidebarBA ul.navigation li a{color:#ffcc66;display:block;padding:4px 6px;text-decoration:none;text-transform:uppercase;}
+#sidebarBA ul.navigation li a:hover, .v1 #sidebarBA ul.navigation li a.selected{color:#fff;text-decoration:underline;}
+/* ____________________ Footer CSS ______________________________________________________________________________ */
+#footerBA{color:#fff;margin:10px auto 0;min-height:30px;padding:15px 0;text-align:left;width:100%;}
+#footerBA ul.navigation{margin:15px auto;}
+#footerBA ul.navigation li{border-right:1px solid #444;float:left; font-size:10px; min-width:30px;text-align:center;}
+#footerBA ul.navigation li.first a{padding-left:0}
+#footerBA ul.navigation li.last{border-right:none;}
+#footerBA ul.navigation li a{color:#ffcc66;font-size:10px;padding:2px 17px;}
+#footerBA ul.navigation li a:hover, #footerBA ul.navigation li a.selected{color:#fff;}
+/* ____________________ Layout Specific CSS ______________________________________________________________________________ */
+/*----LAYOUT 1 Column----*/
+.v3 #contentBA{padding:0; width:100%;}
+.v3 #sidebarBA{padding:0; width:100%;}
+.v3 #sidebarBA ul.navigation{border:none;; width:100%}
+.v3 #sidebarBA ul.navigation li{border-right:1px solid #444;float:left; font-size:11px}
+.v3 #sidebarBA ul.navigation li a{color:#ffcc66;display:block;padding:5px 15px;text-decoration:none;}
+.v3 #sidebarBA ul.navigation li.first{border-left:none;}
+.v3 #sidebarBA ul.navigation li.last{border-right:none;}
+.v3 #sidebarBA ul.navigation li a:hover, .v3 #sidebarBA ul.navigation li a.selected{color:#FFF;}
+/*----LAYOUT 2 Column Left ----*/
+.v2 #contentBA{padding-left:1.5%; padding-right:0; min-height:200px;}
+.v2 #sidebarBA{padding-right:1.5%;padding-left:0;}
+.v2 #sidebarBA ul.navigation{}
+/*----LAYOUT 2 Column Right----*/
+
+/* ____________________ Module Specific Styling ______________________________________________________________________________ */
+#body .zbl-Btn{background:#555; color:#eee; border:1px solid #000; text-decoration:none}
+	#body .zbl-Btn:hover{background:#aaa; color:#fff}
+
+
+/* ____________________ mobile layout ______________________________________________________________________________ */
+@media screen and (max-device-width:480px), screen and (max-width:600px){/* adds mobile only background */
+#body.mobileLayout{background:url(http://lygo.com/ly/zeeblio/styles/black-lace/images/1409.jpg) repeat-y #000 -112px 0}
+/* style for menu button at top right of page */
+#body.mobileLayout #mNavLink{background:#333;color:#FFCC66;border:1px solid #FFCC66}
+/* styling for navigation menu to be placed at bottom of page */
+#body.mobileLayout .mobileNav ul{background:#000}
+#body.mobileLayout .mobileNav ul li a:hover, #body.mobileLayout .mobileNav ul li a.selected{background:#FFCC66;color:#000}
+/* mobile layout/content styling */
+	#body.mobileLayout #headerBA{padding-top:20px}
+	#body.mobileLayout #contentBA{margin-bottom:15px}
+	#body.mobileLayout #sidebarBA{margin-bottom:15px;padding-top:15px}
+	#body.mobileLayout #footerBA{background:#111}
+}
